@@ -53,13 +53,11 @@
 
   2. 영화간 유사도 산출
 
-  3. 아이템 기반 최근접 이웃 협업 필터링으로 개인화된 영화 추천
-      <img src="https://render.githubusercontent.com/render/math?math=\hat{R}_{u,i} = \displaystyle\sum_{}^{N} (S_{i,N} * R_{u,N}) / \displaystyle\sum_{}^{N} ( |S_{i,N}| )">
-     $$\hat{R}_{u,i} = \displaystyle\sum_{}^{N} (S_{i,N} * R_{u,N}) / \displaystyle\sum_{}^{N} ( |S_{i,N}| )$$
-     
-     - $\hat{R}_{u,i}$: 사용자 u, 아이템 i의 개인화된 예측 평점 값
-      - ${S}_{i,N}$: 아이템 i와 가장 유사도가 높은 Top-N 개 아이템의 유사도 벡터
-      - ${R}_{u,N}$: 사용자 u의 아이템 i와 가장 유사도가 높은 Top-N개 아이템에 대한 실제 평점 벡터
+  3. 아이템 기반 최근접 이웃 협업 필터링으로 개인화된 영화 추천  
+        <img src="https://render.githubusercontent.com/render/math?math=\hat{R}_{u,i} = \displaystyle\sum_{}^{N} (S_{i,N} * R_{u,N}) / \displaystyle\sum_{}^{N} ( |S_{i,N}| )">
+        - <img src="https://render.githubusercontent.com/render/math?math=\hat{R}_{u,i}">: 사용자 u, 아이템 i의 개인화된 예측 평점 값
+        - <img src="https://render.githubusercontent.com/render/math?math={S}_{i,N}">: 아이템 i와 가장 유사도가 높은 Top-N 개 아이템의 유사도 벡터
+        - <img src="https://render.githubusercontent.com/render/math?math={R}_{u,N}">: 사용자 u의 아이템 i와 가장 유사도가 높은 Top-N개 아이템에 대한 실제 평점 벡터
 
 
 
