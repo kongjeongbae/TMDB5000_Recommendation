@@ -54,7 +54,7 @@
   2. 영화간 유사도 산출
 
   3. 아이템 기반 최근접 이웃 협업 필터링으로 개인화된 영화 추천
-
+      <img src="https://render.githubusercontent.com/render/math?math=\hat{R}_{u,i} = \displaystyle\sum_{}^{N} (S_{i,N} * R_{u,N}) / \displaystyle\sum_{}^{N} ( |S_{i,N}| )">
      $$\hat{R}_{u,i} = \displaystyle\sum_{}^{N} (S_{i,N} * R_{u,N}) / \displaystyle\sum_{}^{N} ( |S_{i,N}| )$$
      
      - $\hat{R}_{u,i}$: 사용자 u, 아이템 i의 개인화된 예측 평점 값
